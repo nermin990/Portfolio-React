@@ -1,0 +1,137 @@
+.content-holder-experience .content-holder-experience__right-firm-year {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.content-holder-experience .content-holder-experience__right-firm-year h5 {
+  font-size: 24px;
+  margin: 0;
+  transition: 300ms;
+}
+
+.content-holder-experience .content-holder-experience__right-firm-year p {
+  font-size: 26px;
+  margin: 0;
+}
+
+.content-holder-experience {
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.content-holder-experience:last-of-type {
+  margin-bottom: 0;
+}
+
+.content-holder-experience::before,
+.content-holder-experience::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.content-holder-experience::before {
+  top: 0;
+  left: 0;
+  border-top: 2px solid #ffc107;
+  border-left: 2px solid #ffc107;
+}
+
+.content-holder-experience::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 2px solid #ffc107;
+  border-right: 2px solid #ffc107;
+}
+
+.content-holder-experience:hover {
+  background: rgba(17, 32, 38, 0.5);
+  backdrop-filter: blur(8px);
+  transition: opacity 0.5s ease 0.3s;
+}
+
+.content-holder-experience:hover::before,
+.content-holder-experience:hover::after {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.content-holder-experience h4 {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.content-holder-experience:hover
+  .content-holder-experience__right-firm-year
+  h5 {
+  color: #ffc107;
+}
+
+.content-holder-experience .content-holder-experience__right-tech {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 12px;
+}
+
+.content-holder-experience .content-holder-experience__right-tech span {
+  padding: 8px 12px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  line-height: 1;
+  font-size: 13px;
+  color: #fff;
+  background-color: rgba(125, 235, 183, 0.05);
+  transition: 300ms;
+}
+
+.content-holder-experience:hover .content-holder-experience__right-tech span {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.content-holder-experience .notes {
+  margin: 18px 0 0 0;
+  font-size: 9px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .content-holder-experience {
+    background: rgba(17, 32, 38, 0.5);
+    backdrop-filter: blur(8px);
+    transition: opacity 0.5s ease 0.3s;
+    padding: 26px;
+  }
+
+  .content-holder-experience .content-holder-experience__right-firm-year h5 {
+    color: #ffc107;
+  }
+
+  .content-holder-experience .content-holder-experience__right-tech span {
+    color: #ffc107;
+    border-color: #ffc107;
+  }
+
+  .portfolio .portfolio-holder .portfolio-holder__right .content-holder p {
+    font-size: 14px;
+  }
+
+  .content-holder-experience .content-holder-experience__right-tech span {
+    font-size: 12px;
+  }
+}
