@@ -9,7 +9,7 @@ import PHP from "../images/php.webp";
 import Git from "../images/git.webp";
 import Figma from "../images/figma.webp";
 import Bootstrap from "../images/bootstrap.webp";
-import ACF from "../images/acf.webp";
+import React_icon from "../images/React.webp";
 import SEO from "../images/seo.webp";
 import Ajax from "../images/ajax2010.webp";
 import Linear from "../images/linear.webp";
@@ -65,7 +65,7 @@ const Skills = () => {
             <img src={Bootstrap} alt="Loading..." width="60" height="50" />
           </div>
           <div className="item" style={{ "--position": 4 }}>
-            <img src={ACF} alt="Loading..." width="60" height="50" />
+            <img src={React_icon} alt="Loading..." width="60" height="50" />
           </div>
           <div className="item" style={{ "--position": 5 }}>
             <img src={SEO} alt="Loading..." width="60" height="50" />

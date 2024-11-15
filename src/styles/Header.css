@@ -8,6 +8,10 @@
   z-index: 9;
 }
 
+.header .header-holder{
+  position: relative;
+}
+
 .header .header-holder svg {
   display: none;
 }
@@ -60,15 +64,17 @@
     position: fixed;
     top: 70px;
     z-index: 99;
-    display: none; /* Sakrij meni po default-u */
+    display: none;
     transition: all 0.3s ease-in-out;
   }
 
   .hamburger.show {
-    display: block; /* Prikazi meni kada je aktivan */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
-  /* Hamburger ikonica stilovi */
   .hamburger-icon {
     display: block;
     position: fixed;

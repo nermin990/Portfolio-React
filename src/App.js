@@ -1,4 +1,5 @@
 // src/App.js
+import { useEffect } from "react";
 import React from "react";
 import Header from "./components/Header";
 import PortfolioLeftSection from "./components/LeftPart";
@@ -12,7 +13,13 @@ import "./index.css";
 import "./styles/Main.css";
 import "./bootstrap.css";
 
+import  {initGA, trackPageView} from "./analytics";
+
 function App() {
+  useEffect(() => {
+    initGA();
+    trackPageView();
+  }, []);
   return (
     <div className="App">
       <Header />
