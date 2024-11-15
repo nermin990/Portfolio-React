@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af341c38.css",
-    "main.js": "/static/js/main.eea00893.js",
+    "main.js": "/static/js/main.80c4d670.js",
     "static/js/453.553fe3ef.chunk.js": "/static/js/453.553fe3ef.chunk.js",
     "static/media/profile.webp": "/static/media/profile.6497267411b273a0e9ca.webp",
     "static/media/Nermin Memovic CV.pdf": "/static/media/Nermin Memovic CV.21b5493e0b652a52d886.pdf",
@@ -22,11 +22,11 @@
     "static/media/linear.webp": "/static/media/linear.0ad6c5d0f6ef661a28af.webp",
     "index.html": "/index.html",
     "main.af341c38.css.map": "/static/css/main.af341c38.css.map",
-    "main.eea00893.js.map": "/static/js/main.eea00893.js.map",
+    "main.80c4d670.js.map": "/static/js/main.80c4d670.js.map",
     "453.553fe3ef.chunk.js.map": "/static/js/453.553fe3ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af341c38.css",
-    "static/js/main.eea00893.js"
+    "static/js/main.80c4d670.js"
   ]
 }
