@@ -10,10 +10,9 @@ const Header = () => {
       <div className="header-holder">
         {/* Logo */}
           <a href="/">
-              <img src={Logo} alt="Logo" loading="lazy"/>
+              <img src={Logo} alt="Home - Logo" loading="lazy"/>
+              <span className="sr-only">Home</span>
           </a>
-
-
           {/* Hamburger Menu */}
           <HamburgerMenu />
       </div>
