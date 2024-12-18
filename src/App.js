@@ -13,28 +13,28 @@ import "./styles/Main.css";
 import "./bootstrap.css";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <div class="portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="portfolio-holder">
-              <div class="portfolio-holder__left">
-                <PortfolioLeftSection />
-              </div>
-              <div class="portfolio-holder__right">
-                <About />
-                <Skills />
-                <Projects />
-                <Experience />
-              </div>
+    return (
+        <div className="App">
+            <Header/>
+            <div class="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="portfolio-holder">
+                            <div class="portfolio-holder__left">
+                                <PortfolioLeftSection/>
+                            </div>
+                            <div class="portfolio-holder__right">
+                                <About/>
+                                <Skills/>
+                                <Projects/>
+                                <Experience/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default App;
