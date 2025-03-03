@@ -24,6 +24,13 @@
   border: 0;
 }
 
+.hamburger {
+  display: none;
+}
+
+.hamburger-icon {
+  display: none;
+}
 
 @media only screen and (max-width: 991px) {
   .header {
@@ -45,17 +52,7 @@
     top: 20px;
     z-index: 999;
   }
-}
 
-.hamburger {
-  display: none;
-}
-
-.hamburger-icon {
-  display: none;
-}
-
-@media only screen and (max-width: 991px) {
   .header .header-holder img {
     display: block;
     width: 30px;
@@ -145,5 +142,11 @@
 
   .portfolio-contact {
     padding-left: 13px;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .hamburger{
+    height: 91vh;
   }
 }
