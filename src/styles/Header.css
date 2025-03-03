@@ -1,5 +1,4 @@
 .header {
-  /* background: #112026ff; */
   height: 70px;
   position: fixed;
   top: 0;
@@ -24,6 +23,13 @@
   border: 0;
 }
 
+.hamburger {
+  display: none;
+}
+
+.hamburger-icon {
+  display: none;
+}
 
 @media only screen and (max-width: 991px) {
   .header {
@@ -45,17 +51,7 @@
     top: 20px;
     z-index: 999;
   }
-}
 
-.hamburger {
-  display: none;
-}
-
-.hamburger-icon {
-  display: none;
-}
-
-@media only screen and (max-width: 991px) {
   .header .header-holder img {
     display: block;
     width: 30px;
@@ -71,14 +67,14 @@
     height: 100vh;
     background: #112026ff;
     position: fixed;
-    top: 70px;
+    top: 0;
     z-index: 99;
-    display: none; /* Sakrij meni po default-u */
+    display: none;
     transition: all 0.3s ease-in-out;
   }
 
   .hamburger.show {
-    display: block; /* Prikazi meni kada je aktivan */
+    display: block;
   }
 
   /* Hamburger ikonica stilovi */
