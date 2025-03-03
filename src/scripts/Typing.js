@@ -7,17 +7,15 @@ const AnimatedHeading = () => {
 
     useEffect(() => {
         const text = "Nermin Memovic";
-        const nameArray = ["N", "e", "r", "m", "i", "n"]; // Ime
-        const space = [" "]; // Razmak
-        const surnameArray = ["M", "e", "m", "o", "v", "i", "c"]; // Prezime
+        const nameArray = ["N", "e", "r", "m", "i", "n"];
+        const space = [" "];
+        const surnameArray = ["M", "e", "m", "o", "v", "i", "c"];
 
-        // Kombinuj ime, razmak i prezime
         setLetters([...nameArray, ...space, ...surnameArray]);
 
-        // Simulacija učitavanja sa setTimeout (možeš koristiti pravi preloader)
         setTimeout(() => {
-            setIsLoaded(true); // Ovaj state možeš koristiti za prikazivanje sadržaja
-        }, 1000); // Možeš prilagoditi trajanje preloadera
+            setIsLoaded(true);
+        }, 1000);
     }, []);
 
     useEffect(() => {
@@ -39,7 +37,7 @@ const AnimatedHeading = () => {
             <div className="loader">
                 <div className="circle"></div>
             </div>
-        ); // Tvoj preloader
+        );
     }
 
     return (

@@ -35,12 +35,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;  /* Pozicionira loader fiksno na ekranu */
-  top: 0;  /* Stavlja ga na vrh ekrana */
-  left: 0;  /* Stavlja ga na levu stranu ekrana */
-  width: 100%;  /* Puni širinu ekrana */
-  height: 100%;  /* Puni visinu ekrana */
-  background-color: #112026FF; /* Poluprovidna pozadina */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #112026FF;
 }
 
 .circle {
