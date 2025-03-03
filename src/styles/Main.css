@@ -31,6 +31,33 @@ body {
 /*    transition: background-color 0.3s;*/
 /*}*/
 
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;  /* Pozicionira loader fiksno na ekranu */
+  top: 0;  /* Stavlja ga na vrh ekrana */
+  left: 0;  /* Stavlja ga na levu stranu ekrana */
+  width: 100%;  /* Puni širinu ekrana */
+  height: 100%;  /* Puni visinu ekrana */
+  background-color: #112026FF; /* Poluprovidna pozadina */
+}
+
+.circle {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #1D313AFF;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
 .portfolio {
   display: flex;
   flex-direction: column;
