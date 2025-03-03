@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import CV from "../Nermin Memovic CV.pdf";
+import CV from "../Nermin Memovic_CV.pdf";
 import "../styles/Header.css";
 
 const HamburgerMenu = () => {

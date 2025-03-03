@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../Nermin Memovic CV.pdf";
+import CV from "../Nermin Memovic_CV.pdf";
 import "../styles/LeftPart.css";
 import PortfolioNavigation from "../scripts/Navigation";
 import AnimatedHeading from "../scripts/Typing";
