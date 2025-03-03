@@ -7,7 +7,12 @@ const AnimatedHeading = () => {
 
     useEffect(() => {
         const text = "Nermin Memovic";
-        setLetters(text.split(""));
+        const nameArray = ["N", "e", "r", "m", "i", "n"]; // Ime
+        const space = [" "]; // Razmak
+        const surnameArray = ["M", "e", "m", "o", "v", "i", "c"]; // Prezime
+
+        // Kombinuj ime, razmak i prezime
+        setLetters([...nameArray, ...space, ...surnameArray]);
 
         // Simulacija učitavanja sa setTimeout (možeš koristiti pravi preloader)
         setTimeout(() => {
@@ -41,7 +46,7 @@ const AnimatedHeading = () => {
         <h1 className="portfolio-holder__left-heading">
       <span className="text-wrapper">
         {letters.map((letter, index) => (
-            <span key={index} className="letter">
+            <span key={index} className={`letter ${letter === " " ? "space" : ""}`}>
             {letter}
           </span>
         ))}

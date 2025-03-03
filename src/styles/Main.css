@@ -57,6 +57,10 @@ body {
   100% { transform: rotate(360deg); }
 }
 
+.space{
+  width: 20px;
+}
+
 
 .portfolio {
   display: flex;
@@ -247,6 +251,10 @@ body {
   .portfolio .portfolio-holder .portfolio-holder__right .content-holder {
     margin-bottom: 80px;
   }
+
+  .space{
+    width: 15px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -269,5 +277,9 @@ body {
 
   .portfolio .portfolio-holder .portfolio-holder__right .content-holder {
     margin-bottom: 60px;
+  }
+
+  .space{
+    width: 10px;
   }
 }
