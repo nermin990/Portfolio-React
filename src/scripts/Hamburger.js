@@ -31,7 +31,7 @@ const HamburgerMenu = () => {
             <div className={`hamburger ${isMenuOpen ? "show" : ""}`}>
                 <nav className="hamburger-menu">
                     <ul className="portfolio-navigation">
-                        {["Home", "About", "Skills", "Projects", 'Experience'].map((section) => (
+                        {["About", "Skills", "Projects", 'Experience'].map((section) => (
                             <li key={section}>
                                 <a href={`#${section.toLowerCase()}`} onClick={handleLinkClick}>
                                     {section}
