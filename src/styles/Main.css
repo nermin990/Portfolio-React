@@ -146,6 +146,7 @@ body {
   display: none;
 }
 
+
 @media only screen and (max-width: 1290px) {
   .portfolio-holder__left-heading {
     font-size: 60px;
@@ -255,6 +256,26 @@ body {
 
   .space{
     width: 15px;
+  }
+
+  .portfolio-contact a:nth-child(3) svg{
+    width: 29px;
+    height: 29px;
+  }
+
+  .portfolio-contact a:nth-child(4) svg{
+    width: 26px;
+    height: 25px;
+  }
+
+  .portfolio-contact a:nth-child(5) svg{
+    width: 32px;
+    height: 32px;
+  }
+
+  .portfolio-contact a:nth-child(6) svg{
+    width: 28px;
+    height: 28px;
   }
 }
 
