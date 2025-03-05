@@ -117,8 +117,8 @@
 }
 
 .portfolio-contact a svg {
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 25px;
     filter: brightness(0.5);
     transition: 300ms;
 }
@@ -127,14 +127,44 @@
     filter: brightness(1);
 }
 
+.portfolio-contact a:nth-child(1) svg {
+    margin-bottom: 1px;
+}
+
+.portfolio-contact a:nth-child(1):hover svg {
+    fill: #F1502F;
+}
+
 .portfolio-contact a:nth-child(2) svg {
     width: 27px;
     height: 27px;
 }
 
+.portfolio-contact a:nth-child(2):hover svg {
+    fill: #0077B5;
+}
+
+.portfolio-contact a:nth-child(3) svg {
+    width: 23px;
+    height: 23px;
+}
+
+.portfolio-contact a:nth-child(3):hover svg path {
+    fill: #000;
+}
+
+.portfolio-contact a:nth-child(3) svg path{
+    transition: 200ms;
+}
+
 .portfolio-contact a:nth-child(4) svg {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
+}
+
+
+.portfolio-contact a:nth-child(4):hover svg {
+    fill: #C71610;
 }
 
 @keyframes describe {

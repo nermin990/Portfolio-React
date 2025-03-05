@@ -122,6 +122,7 @@ body {
 .portfolio .portfolio-holder .portfolio-holder__right .content-holder p {
   text-align: left;
   font-size: 16px;
+  font-weight: 300;
 }
 
 .portfolio
