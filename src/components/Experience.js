@@ -50,6 +50,13 @@ const Experience = () => {
           <span>CSS</span>
           <span>JavaScript</span>
           <span>PHP</span>
+          <span>jQuery</span>
+          <span>Git</span>
+          <span>Deploy</span>
+          <span>SEO</span>
+          <span>WordPress</span>
+          <span>CSS Animation</span>
+          <span>JavaScript Animation</span>
         </div>
       </div>
     </div>

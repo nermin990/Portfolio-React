@@ -8,7 +8,6 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-holder">
-        {/* Logo */}
           <a href="/">
               <img src={Logo} alt="Home - Logo" loading="lazy"/>
               <span className="sr-only">Home</span>

@@ -1,148 +1,157 @@
 .portfolio-holder__left-heading {
-  position: relative;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 1;
-  margin: 0;
-  width: fit-content;
+    position: relative;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    margin: 0;
+    width: fit-content;
 }
 
 .portfolio-holder__left-heading .text-wrapper {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
 
 .portfolio-holder__left-heading .letter {
-  transform-origin: 50% 100%;
-  display: inline-block;
-  line-height: 1em;
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
 }
 
 .portfolio .portfolio-holder .portfolio-holder__left {
-  flex: 0 0 auto;
-  width: 45%;
-  height: 100%;
+    flex: 0 0 auto;
+    width: 45%;
+    height: 100%;
 }
 
 .portfolio-holder__left-holder {
-  position: fixed;
-  max-width: 45%;
+    position: fixed;
+    max-width: 45%;
 }
 
 .portfolio-holder__left-content {
-  animation: describe 1.5s;
-  animation-delay: 1500ms;
-  animation-fill-mode: forwards;
-  opacity: 0;
-  padding-left: 3px;
-  text-align: left;
-  width: 80%;
+    animation: describe 1.5s;
+    animation-delay: 1500ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    padding-left: 3px;
+    text-align: left;
+    width: 80%;
 }
 
 .portfolio-holder__left-content h2 {
-  font-size: 24px;
-  margin: 0 0 32px 0;
+    font-size: 24px;
+    margin: 0 0 32px 0;
 }
 
 .portfolio-holder__left-content p {
-  font-size: 16px;
-  margin-bottom: 80px;
+    font-size: 16px;
+    margin-bottom: 80px;
 }
 
 .portfolio-navigation {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .portfolio-holder__left-content .portfolio-navigation ul {
-  padding-left: 0;
-  width: fit-content;
+    padding-left: 0;
+    width: fit-content;
 }
 
 .portfolio-holder__left-content .portfolio-navigation ul li {
-  list-style: none;
-  margin-bottom: 12px;
+    list-style: none;
+    margin-bottom: 12px;
 }
 
 .portfolio-holder__left-content .portfolio-navigation ul li a {
-  color: #b5b5b5;
-  text-decoration: none;
-  font-size: 18px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: left;
-  align-items: center;
-  text-transform: uppercase;
-  transition: 300ms;
+    color: #b5b5b5;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 300ms;
 }
 
 .portfolio-holder__left-content .portfolio-navigation ul li a .line {
-  border: 1px solid #b5b5b5;
-  width: 30px;
-  margin-right: 18px;
-  transition: 300ms;
+    border: 1px solid #b5b5b5;
+    width: 30px;
+    margin-right: 18px;
+    transition: 300ms;
 }
 
 .active {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .active-line {
-  border-color: #fff !important;
-  width: 60px !important;
+    border-color: #fff !important;
+    width: 60px !important;
 }
 
 .portfolio-holder__left-content .portfolio-navigation ul li a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .portfolio-holder__left-content .portfolio-navigation ul li a:hover .line {
-  border-color: #fff;
-  width: 60px;
+    border-color: #fff;
+    width: 60px;
 }
 
 .portfolio-contact {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .portfolio-contact a {
-  display: flex;
-  margin-right: 25px;
+    display: flex;
+    margin-right: 25px;
 }
 
 .portfolio-contact a:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .portfolio-contact a svg {
-  width: 24px;
-  height: 24px;
-  filter: brightness(0.5);
-  transition: 300ms;
+    width: 24px;
+    height: 24px;
+    filter: brightness(0.5);
+    transition: 300ms;
 }
 
 .portfolio-contact a:hover svg {
-  filter: brightness(1);
+    filter: brightness(1);
 }
 
 .portfolio-contact a:nth-child(2) svg {
-  width: 27px;
-  height: 27px;
+    width: 27px;
+    height: 27px;
 }
 
 .portfolio-contact a:nth-child(4) svg {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 @keyframes describe {
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .portfolio-contact p {
+        flex: 0 0 100%;
+        text-align: left;
+    }
+
 }
