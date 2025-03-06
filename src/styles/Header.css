@@ -142,4 +142,22 @@
   .portfolio-contact {
     padding-left: 13px;
   }
+
+  .portfolio-contact a:nth-child(2):hover svg{
+    fill: #F1502F !important;
+  }
+
+  .portfolio-contact a:nth-child(3):hover svg path{
+    fill: #0077B5 !important;
+  }
+
+  .portfolio-contact a:nth-child(4):hover svg path{
+    fill: #000 !important;
+  }
+
+  .portfolio-contact a:nth-child(5):hover svg{
+    fill: #C71610 !important;
+  }
+
+
 }
