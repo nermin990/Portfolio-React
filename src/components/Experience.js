@@ -9,7 +9,7 @@ const Experience = () => {
           <h3>JV Dev Center </h3>
           <p>2024 - Present </p>
         </div>
-        <h4>Wordpress Developer</h4>
+        <h4>Wordpress Developer (Freelancer)</h4>
         <p>
           Collaborate with the JV Dev Center team to manage all aspects of
           website development, including design, frontend, backend,

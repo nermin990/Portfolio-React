@@ -4,9 +4,9 @@ import anime from "animejs";
 const AnimatedHeading = () => {
     const [letters, setLetters] = useState([]);
     const [isLoaded, setIsLoaded] = useState(false);
+    const [showContent, setShowContent] = useState(false);
 
     useEffect(() => {
-        const text = "Nermin Memovic";
         const nameArray = ["N", "e", "r", "m", "i", "n"];
         const space = [" "];
         const surnameArray = ["M", "e", "m", "o", "v", "i", "c"];
@@ -20,6 +20,10 @@ const AnimatedHeading = () => {
 
     useEffect(() => {
         if (isLoaded) {
+            // Prvo prikaži content (još uvek nevidljiv zbog CSS-a)
+            setShowContent(true);
+
+            // Zatim pokreni animaciju
             requestAnimationFrame(() => {
                 anime.timeline().add({
                     targets: ".portfolio-holder__left-heading .letter",
@@ -32,24 +36,30 @@ const AnimatedHeading = () => {
         }
     }, [isLoaded]);
 
-    if (!isLoaded) {
-        return (
-            <div className="loader">
-                <div className="circle"></div>
-            </div>
-        );
-    }
-
     return (
-        <h1 className="portfolio-holder__left-heading">
-      <span className="text-wrapper">
-        {letters.map((letter, index) => (
-            <span key={index} className={`letter ${letter === " " ? "space" : ""}`}>
-            {letter}
-          </span>
-        ))}
-      </span>
-        </h1>
+        <>
+            {!isLoaded && (
+                <div className="loader">
+                    <div className="circle"></div>
+                </div>
+            )}
+
+            {showContent && (
+                <h1 className="portfolio-holder__left-heading">
+                    <span className="text-wrapper">
+                        {letters.map((letter, index) => (
+                            <span
+                                key={index}
+                                className={`letter ${letter === " " ? "space" : ""}`}
+                                style={{ transform: 'scale(0)' }}
+                            >
+                                {letter}
+                            </span>
+                        ))}
+                    </span>
+                </h1>
+            )}
+        </>
     );
 };
 
