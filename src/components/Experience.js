@@ -6,10 +6,38 @@ const Experience = () => {
       <h2>Experience</h2>
       <div className="content-holder-experience">
         <div className="content-holder-experience__right-firm-year">
-          <h3>JV Dev Center </h3>
-          <p>2024 - Present </p>
+          <h3>S-Tier Development </h3>
+          <p>2025 – Contract Collaboration </p>
         </div>
-        <h4>Wordpress Developer</h4>
+        <h4>WordPress Developer</h4>
+        <p>
+          Collaborated with the S-Tier Development team on the development and
+          maintenance of WordPress websites for various clients. Projects were
+          built using an internal framework based on Gutenberg blocks and ACF,
+          using a development workflow based on WPGulp and SCSS. I was
+          responsible for implementing frontend solutions, customizing blocks
+          according to design requirements, and improving the functionality of
+          existing projects.
+        </p>
+        <div className="content-holder-experience__right-tech">
+          <span>HTML</span>
+          <span>SCSS</span>
+          <span>JavaScript</span>
+          <span>PHP</span>
+          <span>Wordpress</span>
+          <span>WP Gulp</span>
+          <span>Gutemberg bloks</span>
+          <span>CSS Animation</span>
+          <span>JavaScript Animation</span>
+          <span>Design</span>
+        </div>
+      </div>
+      <div className="content-holder-experience">
+        <div className="content-holder-experience__right-firm-year">
+          <h3>JV Dev Center </h3>
+          <p>2024 – Contract Collaboration </p>
+        </div>
+        <h4>WordPress Developer</h4>
         <p>
           Collaborate with the JV Dev Center team to manage all aspects of
           website development, including design, frontend, backend,
